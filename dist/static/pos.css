@@ -1,0 +1,113 @@
+.pos{
+  height: 100%;
+  overflow:hidden;
+}
+.pos-order{
+  background:#f9fafc;
+  height: 100%;
+
+}
+.div-btn{
+  margin-top:10px;
+}
+.totaldiv {
+    background-color: #fff;
+    padding: 10px;
+    border-bottom: 1px solid #d3dce6;
+}
+.title{
+  height: 20px;
+  border-bottom:1px solid #d3dce6;
+  padding:10px;
+  text-align:left;
+  background:#f9fafc;
+}
+.often-goods-list{
+   width:100%;
+   height: 100%;
+}
+.often-goods-list ul{
+  width:100%;
+  height: 100%;
+}
+.often-goods-list ul li{
+   list-style:none;
+   float:left;
+   margin:10px;
+   padding:10px;
+   width:20%;
+   height: 70px;
+   border:1px solid #e5e9f2;
+   cursor:pointer;
+   background:#fff;
+   display:flex;
+}
+.often-goods-list ul li:hover{
+   transform: scale(1.1, 1.1);
+  transition:all 0.5s;
+}
+.cookList{
+  width:100%;
+  height: 100%;
+}
+.cookList li{
+  list-style:none;
+   float:left;
+   margin:10px;
+   padding:10px;
+   width:20%;
+   height: 70px;
+   border:1px solid #e5e9f2;
+   cursor:pointer;
+   background:#fff;
+   display:flex;
+}
+.cookList li:hover{
+  transform: scale(1.1, 1.1);
+  box-shadow: 0 2px 12px 0 rgba(0, 0, 0, 0.1);
+  transition:all 0.5s;
+}
+.foodImg{
+flex:4;
+height: 100%;
+width:100%;
+}
+.foodinfo{
+ flex:6;
+}
+.foodinfo .foodName{
+   font-size:18px;
+   margin-top:15px;
+   display:block;
+}
+.foodinfo .foodMoney{
+   font-size:16px;
+   color:crimson;
+   margin-top:5px;
+   display:block;
+}
+.goods-type {
+    clear: both;
+    border-top: 1px solid #d3dce6;
+    height: 100%;
+}
+.clearfix::before,
+.clearfix::after{
+  content:'';
+  display: block;
+  line-height: 0;
+  height: 0;
+  visibility: hidden;
+  clear: both;
+}
+#countalls{
+  text-align:center;
+  background:none;
+  border:0px;
+   outline:none;
+}
+#countalls:focus{
+  background:none;
+  border:0px;
+  outline:none;
+}
